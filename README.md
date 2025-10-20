@@ -1,6 +1,10 @@
 # USB 16-Channel Relay Control App V1.0
+## Board Screenshot
+![Board Screenshot](https://github.com/peterpt/USB-Relay-Control/blob/main/board.png)
 
-![App Screenshot](https://i.imgur.com/uG9ZIsz.png)
+
+## APP Screenshot
+![App Screenshot](https://github.com/peterpt/USB-Relay-Control/blob/main/app.png)
 
 ## Description
 
@@ -47,23 +51,16 @@ The application controls the board by sending specific 17-byte hexadecimal comma
     ```bash
     pip install -r requirements.txt
     ```
-    *(You will need to create a `requirements.txt` file containing `pyserial` and `Pillow`)*
-
-3.  **Create and Populate the `icons` Folder:**
-    *   Create a folder named `icons` in the same directory as the script.
-    *   Place your default `Onled.png` and `Offled.png` files inside it.
-    *   Add any other custom `.png` or `.jpg` icons you wish to use.
-
-4.  **Connect the Hardware:**
+3.  **Connect the Hardware:**
     *   Ensure the relay board's blue jumper is in the **USB** position.
     *   Connect both the USB cable and the external 12V DC power supply.
 
-5.  **Run the Application:**
+4.  **Run the Application:**
     ```bash
     python3 gui.py
     ```
 
-6.  **First-Time Setup:**
+5.  **First-Time Setup:**
     *   Go to **Configure -> Devices...**.
     *   The application will scan for connected boards. Your board should appear as a **[New]** device.
     *   Select the new device and click **"Configure..."**.
@@ -72,4 +69,4 @@ The application controls the board by sending specific 17-byte hexadecimal comma
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License
