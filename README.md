@@ -43,7 +43,7 @@ The application controls the board by sending specific 17-byte hexadecimal comma
 
 1.  **Clone or Download the Repository:**
     ```bash
-    git clone https://github.com/YourUsername/USB-Relay-Control.git
+    git clone https://github.com/peterpt/USB-Relay-Control.git
     cd USB-Relay-Control
     ```
 
